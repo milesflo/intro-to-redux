@@ -4,17 +4,18 @@ const actions = {
 }
 
 
-function counter(state, action) {
-  if (typeof state === 'undefined') {
-    return 0
+function counter(state = 0, {type}) {
+  switch (type) {
+    case actions.INC: {
+      return state + 1;
+    }
+    case actions.DEC: {
+      return state - 1;
+    }
+    default: {
+      return state;
+    }
   }
-  if (action.type === actions.INC) {
-    return state + 1;
-  }
-  else if (action.type === actions.DEC) {
-    return state - 1;
-  }
-  return state;
 }
 
 module.exports = {
