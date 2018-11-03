@@ -1,0 +1,25 @@
+{
+  "name": "intro-to-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter.js",
+  "dependencies": {
+    "expect": "^23.6.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesflo/intro-to-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesflo/intro-to-redux/issues"
+  },
+  "homepage": "https://github.com/milesflo/intro-to-redux#readme"
+}
